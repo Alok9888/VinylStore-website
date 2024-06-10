@@ -1,0 +1,86 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 2px;
+  right: 2px;
+  height: 60px;
+  column-gap: 30px;
+  padding-left: 50px;
+  align-items: center;
+}
+
+.button-conatiner{
+  width: 70px;
+  height: 100%;
+}
+
+.Button{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background:  linear-gradient(45deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.23s ease;
+  padding: 2px 2px 2px 2px;
+}
+
+.Button:hover{
+  border-bottom: 1px solid;
+  border-color: rgb(218, 83, 105);
+}
+
+.arrow{
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 5px;
+  margin-top: 1px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  background:  linear-gradient(45deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.search-bar-container{
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: 72px;
+  width: 18vw;
+}
+
+.search-bar{
+  border-style: groove;
+  border-color: black;
+  background-color: #e9a14e;
+  width: 100%;
+  border-width: 0.5px;
+  border-radius: 18px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+}
+
+.search-bar:focus{
+  outline: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
+.search-bar:focus::placeholder{
+  color: transparent;
+}
+
+.search-bar::placeholder{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 16px;
+}

@@ -1,0 +1,26 @@
+body{
+  width: 100vw;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.top-container{
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background-color: #000000;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+
+.bottom-of-top-container{
+  display: flex;
+  padding-top: 70px;
+  width: 100vw;
+  height: 100vh;
+  padding-right: 0;
+  margin-right: 0;
+}

@@ -1,0 +1,50 @@
+.text-container{
+  width: 33.23vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-top: 55px;
+  z-index: 100;
+}
+
+.tagline{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.04vw;
+  background: linear-gradient(45deg, #f0b775, #f9ac00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 1vh;
+  margin-bottom: 18.78vh;
+  border-bottom: 2px solid; /* Create a solid underline */
+  border-color: rgb(218, 83, 105);
+  display: inline-block;
+}
+
+.sub-heading{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.35vw;
+  margin-top: -15.67vh;
+  margin-left: 0.1vw;
+  background: linear-gradient(45deg, #ffd700, #f9ac00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  line-height: 2.97vh;
+  width: 430px;
+}
+
+.explore-button{
+  margin-left: 20vw;
+  font-family: "Oswald", sans-serif;
+  background-color: transparent;
+  color: rgb(218, 83, 105);
+  font-weight: 500;
+  border: none;
+  font-size: large;
+  transition: 0.3s;
+  margin-top: -12px;
+}
+
+.explore-button:hover{
+  background-color: #f9ac00;
+  color: black;
+}

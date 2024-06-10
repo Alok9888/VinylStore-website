@@ -1,0 +1,60 @@
+.album-collection{
+  margin-top: 260px;
+  height: 65.67vh;
+  width: 19vw;
+  z-index: 100;
+  display: flex;
+  position: absolute;
+  right: 6vw;
+  margin-right: -18px; 
+}
+
+.taylor-reputation{
+  height: 24vh;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 101;
+}
+
+.kanye-red{
+  height: 24vh;
+  margin-right: 0;
+  margin-left: -4vw;
+  margin-top: 13vh;
+  z-index: 103;
+}
+
+.biggy-ready-to-die{
+  height: 24vh;
+  margin-left: -20vw;
+  margin-top: 20vh;
+  z-index: 200;
+}
+
+.blonde{
+  height: 24vh;
+  z-index: 102;
+  margin-left: -18vw;
+  margin-top: 9vh;
+}
+
+.eight-o-eights{
+  height: 24vh;
+  z-index: 101;
+  margin-left: -12vw;
+  margin-top: 23vh;
+}
+
+.eminem-mmlp{
+  height: 24vh;
+  z-index: 102;
+  margin-top: 36vh;
+  margin-left: -19.4vw;
+}
+
+.weezer{
+  height: 24vh;
+  z-index: 100;
+  margin-left: -9vw;
+  margin-top: -4vh;
+}
