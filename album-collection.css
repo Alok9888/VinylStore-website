@@ -26,6 +26,7 @@
 
 .biggy-ready-to-die{
   height: 24vh;
+  margin-left: -10vw;
   margin-top: 20vh;
   z-index: 200;
 }
@@ -33,7 +34,7 @@
 .blonde{
   height: 24vh;
   z-index: 102;
-  margin-left: -2vw;
+  margin-left: -12vw;
   margin-top: 9vh;
 }
 
